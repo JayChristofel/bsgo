@@ -57,7 +57,7 @@ export default function AppFooter() {
       {/* Newsletter Section */}
       <div className="bg-red-500 dark:bg-red-700">
         <div className="container mx-auto px-4 py-8 md:py-12">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div className="lg:flex-row items-center justify-between gap-8">
             <div className="text-center lg:text-left lg:max-w-lg">
               <h3 className="text-xl md:text-2xl font-bold mb-3">
                 Dapatkan Update Terbaru dari Bank SulutGo
@@ -68,63 +68,32 @@ export default function AppFooter() {
             </div>
             
             <div className="w-full lg:w-auto lg:min-w-96">
-              <form className="w-full">
-                {/* Mobile Layout - Stacked */}
-                <div className="flex flex-col gap-3 md:hidden">
-                  <div className="relative">
-                    <Label htmlFor="newsletter-email-mobile" className="sr-only">
-                      Email untuk Newsletter
-                    </Label>
-                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                      <Mail className="h-4 w-4 text-gray-500" />
-                    </div>
-                    <Input
-                      type="email"
-                      id="newsletter-email-mobile"
-                      name="newsletter-email"
-                      className="pl-10 h-12 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg text-black dark:text-white placeholder:text-gray-500"
-                      placeholder="Enter your email"
-                    />
-                  </div>
-                  <Button 
-                    type="submit"
-                    className="h-12 bg-gray-900 hover:bg-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 text-white rounded-lg font-medium"
-                  >
-                    Join
-                    <ArrowRight className="h-4 w-4 ml-2" />
-                  </Button>
-                </div>
-
-                {/* Tablet & Desktop Layout - Inline */}
-                <div className="hidden md:flex items-center gap-2 p-1 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
-                  <div className="relative flex-1">
-                    <Label htmlFor="newsletter-email-desktop" className="sr-only">
-                      Email untuk Newsletter
-                    </Label>
-                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                      <Mail className="h-4 w-4 text-gray-500 dark:text-gray-400" />
-                    </div>
-                    <Input
-                      type="email"
-                      id="newsletter-email-desktop"
-                      name="newsletter-email"
-                      className="pl-10 h-11 border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 text-black dark:text-white placeholder:text-gray-500 dark:placeholder:text-gray-400"
-                      placeholder="Enter your email"
-                    />
-                  </div>
-                  <Button 
-                    type="submit"
-                    className="h-11 px-6 bg-gray-900 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-md font-medium whitespace-nowrap"
-                  >
-                    Join
-                    <ArrowRight className="h-4 w-4 ml-2" />
-                  </Button>
-                </div>
-                
-                <p className="mt-3 text-xs text-red-100 dark:text-red-200 text-center lg:text-left">
-                  No spam, unsubscribe at any time.
-                </p>
-              </form>
+              <form className="py-24 lg:py-32 container mx-auto px-4 md:px-6 2xl:max-w-[1400px]">
+      <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 rounded-lg">
+        <div className="relative w-full">
+          <Label htmlFor="subscribe-input" className="sr-only">
+            Subscribe
+          </Label>
+          <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
+            <Mail className="size-4 mt-0.5 text-muted-foreground" />
+          </div>
+          <Input
+            type="text"
+            id="subscribe-input"
+            name="subscribe-input"
+            className="ps-9 "
+            placeholder="Enter your email"
+          />
+        </div>
+        <Button className="w-full sm:w-auto ">
+          Join
+          <ArrowRight className="size-3.5" />
+        </Button>
+      </div>
+      <p className="ps-1.5 mt-2 text-xs text-muted-foreground">
+        No spam, unsubscribe at any time.
+      </p>
+    </form>
             </div>
           </div>
         </div>
