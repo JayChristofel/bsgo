@@ -667,7 +667,7 @@ export default function Home() {
                                         Nikmati kemudahan layanan perbankan digital yang inovatif dan terpercaya. Bank SulutGo hadir untuk mendukung kebutuhan finansial Anda dengan teknologi terdepan dan pelayanan prima.
                                     </p>
                                     <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
-                                        <Button size="lg" className="bg-red-600 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-800">
+                                        <Button size="lg" className="bg-red-600 hover:bg-red-700 dark:bg-red-700 dark:hover:bg-red-800 dark:text-white">
                                             <CreditCard className="mr-2 h-5 w-5" />
                                             Buka Rekening
                                         </Button>
