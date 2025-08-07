@@ -21,5 +21,17 @@ export default defineConfig({
     hmr: {
       overlay: false // Disable overlay for minor warnings
     }
+  },
+  build: {
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          ui: ['@radix-ui/react-accordion', '@radix-ui/react-alert-dialog', '@radix-ui/react-avatar'],
+        }
+      }
+    }
   }
 })
