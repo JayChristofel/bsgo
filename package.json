@@ -1,6 +1,5 @@
 {
-  "name": "bank-sulutgo",
-  "homepage": "http://bsgo.urbanswift.xyz",
+  "name": "bank-sulutgo", 
   "private": true,
   "version": "1.0",
   "type": "module",
@@ -85,3 +84,4 @@
     "vite": "^6.2.0"
   }
 }
+
