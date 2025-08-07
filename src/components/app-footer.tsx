@@ -64,13 +64,13 @@ export default function AppFooter() {
                 Berlangganan newsletter kami untuk mendapatkan informasi produk, promo, dan berita terkini
               </p>
             </div>
-            <div className="flex w-full lg:w-auto gap-2">
+            <div className="flex flex-col sm:flex-row w-full lg:w-auto gap-2 sm:gap-2">
               <Input 
                 type="email" 
                 placeholder="Masukkan email Anda"
-                className="min-w-72 bg-white dark:bg-gray-800 text-black dark:text-white border-gray-300 dark:border-gray-600"
+                className="w-full sm:min-w-72 lg:min-w-80 bg-white dark:bg-gray-800 text-black dark:text-white border-gray-300 dark:border-gray-600"
               />
-              <Button variant="destructive" className='bg-red-400 hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-600'>
+              <Button variant="destructive" className="w-full sm:w-auto bg-red-400 hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-600 whitespace-nowrap">
                 Berlangganan
               </Button>
             </div>
