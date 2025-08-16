@@ -569,7 +569,7 @@ export default function AppHeader() {
             },
             { 
               title: 'Sejarah Bank SulutGo', 
-              url: '/about/history', 
+              url: '/about/sejarah', 
               description: 'Perjalanan dan tonggak sejarah Bank SulutGo',
               icon: <FileBarChart2 className="h-5 w-5 shrink-0" />
             },
