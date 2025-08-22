@@ -1,7 +1,4 @@
-# bsgo
-repo ini hanya redesign dari website aslinya
-
-# 🚀 bsgo
+# 🚀 Bank SulutGo
 
 [![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://bsgo.vercel.app)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -10,7 +7,7 @@ repo ini hanya redesign dari website aslinya
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
 ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-Components-orange)
 
-Redesign website **BSGO** dengan sentuhan modern: lebih clean, responsif, dan fokus ke **UI/UX yang kekinian**. Dibangun dengan **React + TypeScript + Tailwind CSS 4 + Shadcn/ui**, serta routing dinamis pakai **React Router**.  
+Redesign website **Bank SulutGo** dengan sentuhan modern: lebih clean, responsif, dan fokus ke **UI/UX yang kekinian**. Dibangun dengan **React + TypeScript + Tailwind CSS 4 + Shadcn/ui**, serta routing dinamis pakai **React Router**.  
 
 🌐 **Live Preview**  
 - [bsgo.vercel.app](https://bsgo.vercel.app)  
@@ -42,7 +39,7 @@ Redesign website **BSGO** dengan sentuhan modern: lebih clean, responsif, dan fo
 
 ## 📦 Installation & Setup
 
-Clone repo & install dependencies:
+1. Clone repo & install dependencies:
 
 ```bash
 git clone https://github.com/JayChristofel/bsgo.git
@@ -50,13 +47,13 @@ cd bsgo
 npm install
 ```
 
-## Run Build Production:
+2. Run Build Production:
 ```bash
 npm run build
 npm run preview
 ```
 
-## Run Development Server:
+3. Run Development Server:
 ```bash
 npm run dev
 ```
@@ -65,3 +62,4 @@ npm run dev
 MIT License © 2025 — JayChristofel
 
 Made with ❤️ using React + Tailwind CSS + shadcn/ui.
+
